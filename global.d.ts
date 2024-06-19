@@ -206,6 +206,12 @@ interface Social {
    * Email
    */
   email?: string;
+
+
+  /**
+   * Email
+   */
+  emaill?: string;
 }
 
 interface Resume {
