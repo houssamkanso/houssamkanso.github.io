@@ -79,7 +79,7 @@ const CONFIG = {
     website: '',
     phone: '',
     email: 'houssam.kanso@univ-pau.fr',
-    email2: 'houssam_kanso@hotmail.com',
+    emaill: 'houssam_kanso@hotmail.com',
   },
   resume: {
     fileUrl:

@@ -63,7 +63,7 @@ export interface SanitizedSocial {
   telegram?: string;
   phone?: string;
   email?: string;
-  email2?: string;
+  emaill?: string;
 }
 
 export interface SanitizedResume {
