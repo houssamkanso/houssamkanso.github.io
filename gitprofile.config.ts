@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Houssam Kanso',
+    title: 'Portfolio Houssam Kanso',
     description: '',
     imageURL: '',
   },
