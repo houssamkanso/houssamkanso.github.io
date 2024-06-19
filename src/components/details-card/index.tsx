@@ -368,6 +368,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`mailto:${social.email}`}
                 />
               )}
+              {social?.email2 && (
+                <ListItem
+                  icon={<RiMailFill />}
+                  title="Email:"
+                  value={social.email2}
+                  link={`mailto:${social.email2}`}
+                />
+              )}
             </Fragment>
           )}
         </div>
