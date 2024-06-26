@@ -90,3 +90,7 @@ svg {
     opacity: 1;
   }
 }
+
+.badge-primary {
+  color: oklch(1 0 0);
+}

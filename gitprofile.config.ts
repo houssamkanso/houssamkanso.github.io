@@ -62,7 +62,8 @@ const CONFIG = {
     linkedin: 'houssamkanso',
     twitter: '',
     mastodon: '',
-    researchGate: '',
+    googlescolar: 'fucKNAcAAAAJ',
+    researchGate: 'Houssam-Kanso',
     facebook: '',
     instagram: '',
     reddit: '',
@@ -77,13 +78,13 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
+    phone: '+33 7 87 40 41 26',
     email: 'houssam.kanso@univ-pau.fr',
-    emaill: 'houssam_kanso@hotmail.com',
+    emaill: 'houssam_kanso@hotmail.com', // add information here, and in global.d.ts, global.tsx, sanitized-config.tsx, and detailed-card/index.tsx
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1OW2atAzR-Kw5iSKe8_kq-a3krZBJ3ux5/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -141,28 +142,82 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      title: 'A preliminary study of the energy impact of software in raspberry pi devices',
+      conferenceName: '2020 IEEE 29th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)',
+      journalName: '',
+      authors: 'K Kesrouani, H Kanso, A Noureddine',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
+      title: 'Automated power modeling of computing devices: Implementation and use case for Raspberry Pis',
+      conferenceName: '',
+      journalName: 'Sustainable Computing: Informatics and Systems',
+      authors: 'H Kanso, A Noureddine, E Exposito',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
+    },
+    {
+      title: 'A Review of Energy Aware Cyber-Physical Systems',
+      conferenceName: '',
+      journalName: 'T&F Cyber-Physical Systems',
+      authors: 'H Kanso, A Noureddine, E Exposito',
+      link: 'https://example.com',
+      description:
+        '',
+    },
+    {
+      title: 'CPU Power Bench: An Automated Benchmark Tool for Power Estimation in Single-Board Computers',
+      conferenceName: '9th International Conference on Information and Communications Technology for Sustainability',
+      journalName: '',
+      authors: 'H Kanso, A Noureddine, E Exposito',
+      link: 'https://example.com',
+      description:
+        '',
+    },
+    {
+      title: 'An automated energy management framework for smart homes',
+      conferenceName: '',
+      journalName: 'Journal of Ambient Intelligence and Smart Environments',
+      authors: 'H Kanso, A Noureddine, E Exposito',
+      link: 'https://example.com',
+      description:
+        '',
+    },
+    {
+      title: 'A Preliminary Study of the Impact of Code Coverage on Software Energy Consumption',
+      conferenceName: '36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)',
+      journalName: '',
+      authors: 'A Noureddine, M Martinez, H Kanso',
+      link: 'https://example.com',
+      description:
+        '',
+    },
+    {
+      title: '[Ph.D. Thesis] Contributing to the Energy Efficiency of Smart Homes: An Automated Management Framework',
+      conferenceName: 'Université de Pau et des Pays de l\'Adour',
+      journalName: '',
+      authors: 'H Kanso',
+      link: 'https://example.com',
+      description:
+        '',
+    },
+    {
+      title: 'Is well-tested code more energy efficient?',
+      conferenceName: 'Workshops at 18th International Conference on Intelligent Environments (IE2022)',
+      journalName: '',
+      authors: 'A Noureddine, M Martinez, H Kanso, N Bru',
+      link: 'https://example.com',
+      description:
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {

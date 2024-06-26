@@ -125,6 +125,11 @@ interface Social {
   /**
    * ResearchGate username
    */
+  googlescolar?: string;
+  
+  /**
+   * ResearchGate username
+   */
   researchGate?: string;
 
   /**
@@ -209,7 +214,7 @@ interface Social {
 
 
   /**
-   * Email
+   * Email2
    */
   emaill?: string;
 }
