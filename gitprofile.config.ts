@@ -31,24 +31,32 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'EVA - Virtual Learning Environment',
+          description: 'Deployment of a cluster of three servers that host virtual learning environments for students using Proxmox. ',
+          imageUrl: './Images/eva-logo.png',
+          link: '',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'UNITA - Project Management',
+          description: 'Lead the working group that implemented and configured the OpenProject project management tool with the AGILE methodology for UNITA',
+          imageUrl:'./Images/unita-logo.png',
+          link: 'https://univ-unita.eu/Sites/',
+        },
+        {
+          title: 'ERASMUS+ Extended Learning for Higher Education teachers and trainers',
+          description: 'Manage the European project: Extended Learning for Higher Education teachers and trainers from the UPPA side',
+          imageUrl:'./Images/xl-logo.png',
+          link: 'https://www.extendedlearning.eu/',
+        },
+        {
+          title: 'ISA NUM - Engineering School',
+          description: 'Contribute to the creation of the ISA NUM engineering school (CTI accreditation, curriculum ,etc.)',
+          imageUrl:'./Images/isanum-logo.jpg',
+          link: 'https://formation.univ-pau.fr/fr/catalogue/sciences-technologies-sante-STS/diplome-d-ingenieur-FI/diplome-d-ingenieur-en-informatique-LP85S1TB.html',
         },
       ],
     },
@@ -87,57 +95,103 @@ const CONFIG = {
       'https://drive.google.com/file/d/1OW2atAzR-Kw5iSKe8_kq-a3krZBJ3ux5/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Virtualisation',
+    'Proxmox',
+    'Java',
+    'Python',
+    'Machine learning',
+    'SQL',
+    'Networking',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Flask',
+    'Shell',
+    'Ontology',
+    'MBSE',
+    'IoT',
+    'Assembly',
+    'Green IT',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: '🇫🇷 Université de Pau et des Pays de l\'Adour',
+      position: 'Researcher (Enseignant-Chercheur Contractuel)',
+      from: 'January 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: '🇫🇷 Université de Pau et des Pays de l\'Adour',
+      position: 'Ph.D. Candidate',
+      from: 'October 2019',
+      to: 'December 2022',
+      companyLink: '',
+    },
+    {
+      company: '🇫🇷 Groupe Renault',
+      position: 'Autonomous Mobility Modeling Internship',
+      from: 'March 2019',
+      to: 'September 2019',
+      companyLink: '',
+    },
+    {
+      company: '🇱🇧 Université Antonine',
+      position: 'Robotics Club Team Leader',
+      from: 'September 2016',
+      to: 'April 2018',
+      companyLink: '',
+    },
+    {
+      company: '🇱🇧 Takwin Digital',
+      position: 'Web Development Internship',
+      from: 'February 2018',
+      to: 'March 2018',
+      companyLink: '',
+    },
+    {
+      company: '🇱🇧 MindField Digital',
+      position: 'Software Quality Assurance Internship',
+      from: 'June 2017',
+      to: 'August 2017',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Microsoft Certified: Azure Al Fundamentals',
+      body: 'Credential ID 6BD1AB561C74DA22',
+      year: 'May 2024',
+      link: 'https://learn.microsoft.com/en-us/users/houssamkanso-1496/credentials/6bd1ab561c74da22?ref=https%3A%2F%2Fwww.linkedin.com%2F',
+    },{
+      name: 'Microsoft Certified: Azure Fundamentals',
+      body: 'Credential ID 2C8F5188F3DD2C65',
+      year: 'June 2023',
+      link: 'https://learn.microsoft.com/en-us/users/houssamkanso-1496/credentials/2c8f5188f3dd2c65?ref=https%3A%2F%2Fwww.linkedin.com%2F',
+    },{
+      name: 'LoRa and LoRaWAN® for the Internet of Things',
+      body: 'Credential ID UC-67439150-74d0-405f-82d5-38e2614f27e',
+      year: 'May 2023',
+      link: 'https://drive.google.com/file/d/1mcj_jbufRdmt_zSzZoi__orNTWi6h9gW/view',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: '🇫🇷 Université de Pau et des Pays de l\'Adour',
+      degree: 'Ph.D. in Computer Science',
+      from: '2019',
+      to: '2022',
+    },
+    {
+      institution: '🇫🇷 Université de Pau et des Pays de l\'Adour',
+      degree: 'Master\'s degree in Computer Science',
+      from: '2018',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: '🇱🇧 Université Antonine',
+      degree: 'Computer And Communication Engineer',
+      from: '2014',
+      to: '2019',
     },
   ],
   publications: [
@@ -146,7 +200,7 @@ const CONFIG = {
       conferenceName: '2020 IEEE 29th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)',
       journalName: '',
       authors: 'K Kesrouani, H Kanso, A Noureddine',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-02936861/',
       description:
         '',
     },
@@ -155,7 +209,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'Sustainable Computing: Informatics and Systems',
       authors: 'H Kanso, A Noureddine, E Exposito',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-03912723v1',
       description:
         '',
     },
@@ -164,7 +218,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'T&F Cyber-Physical Systems',
       authors: 'H Kanso, A Noureddine, E Exposito',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-03912724v1',
       description:
         '',
     },
@@ -173,7 +227,7 @@ const CONFIG = {
       conferenceName: '9th International Conference on Information and Communications Technology for Sustainability',
       journalName: '',
       authors: 'H Kanso, A Noureddine, E Exposito',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-04083533v1',
       description:
         '',
     },
@@ -182,7 +236,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'Journal of Ambient Intelligence and Smart Environments',
       authors: 'H Kanso, A Noureddine, E Exposito',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-04396046v1',
       description:
         '',
     },
@@ -191,7 +245,7 @@ const CONFIG = {
       conferenceName: '36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)',
       journalName: '',
       authors: 'A Noureddine, M Martinez, H Kanso',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-03380602v1',
       description:
         '',
     },
@@ -200,7 +254,7 @@ const CONFIG = {
       conferenceName: 'Université de Pau et des Pays de l\'Adour',
       journalName: '',
       authors: 'H Kanso',
-      link: 'https://example.com',
+      link: 'https://hal.science/tel-04128670v1',
       description:
         '',
     },
@@ -209,7 +263,7 @@ const CONFIG = {
       conferenceName: 'Workshops at 18th International Conference on Intelligent Environments (IE2022)',
       journalName: '',
       authors: 'A Noureddine, M Martinez, H Kanso, N Bru',
-      link: 'https://example.com',
+      link: 'https://hal.science/hal-03635797v1',
       description:
         '',
     },
@@ -240,7 +294,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -292,11 +346,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };
